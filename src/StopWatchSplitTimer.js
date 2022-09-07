@@ -17,7 +17,7 @@ function StopWatchSplitTimer(props) {
   }, [timerStartedOnce, timerStarted]);
   return (
     <>
-      {!timerStartedOnce ? (
+      {timerStartedOnce === false ? (
         <h3 className="splitTextHeading">Split Time</h3>
       ) : (
         <div className={"StopWatchSplitTimer "}>
