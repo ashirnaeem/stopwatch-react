@@ -1,0 +1,46 @@
+/* .StopWatch-Container{ */
+    /* display: flex; */
+    /* justify-content: center; */
+/* } */
+.splitTime{
+    display: grid;
+    /* justify-content: center; */
+    /* gap: 5px; */
+    text-align: center;
+    /* flex-direction: column; */
+    margin-top: 20px;
+    /* justify-content: space-between; */
+    /* grid-template-rows: repeat(33.3%); */
+    /* grid-gap: 0.5rem; */
+   grid-row-gap: 1rem; ;
+}
+
+.splittedTime {
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+}
+  .splittedTime > span{
+    text-align: left;
+  /* padding: 15px; */
+   /* justify-content: space-between; */
+ }
+ .srNo{
+  /* margin-right: 30px; */
+  color: #9E9FA0;
+ 
+ }
+ .splittedTime .type{
+  /* margin-left: 30px; */
+  color: #9E9FA0;
+  width: 30px;
+ }
+ .splitTimeRecord{
+  color: #F2A435;
+  }
+  .horizentalLine{
+    width: 700px;
+    color: gray;
+    margin-top: 20px;
+    
+  }

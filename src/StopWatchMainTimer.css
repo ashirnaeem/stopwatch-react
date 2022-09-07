@@ -1,0 +1,11 @@
+.StopWatchMainTimer{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    /* width: 670px; */
+    /* height: 35px; */
+}
+.StopWatchMainTimer > .fixwidth{
+    width: 35px;
+    height: 35px;
+}

@@ -1,0 +1,22 @@
+.StopWatchSplitTimer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #f29f36;
+}
+.StopWatchSplitTimer > .fixwidth{
+    width: 23px;
+    height: 23px;
+}
+h3{
+   
+
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.splitTextHeading{
+    text-align: center;
+    color:#f29f36;
+    height: 20px;
+}

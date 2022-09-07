@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;  
+   
+      
+  }
+  body{
+      background-color: #3f3f3f;
+      margin: 20px 0px;
+      
+  }
+  html{
+      font-family: Tahoma, sans-serif;
+  }
+  

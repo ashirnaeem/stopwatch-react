@@ -1,0 +1,53 @@
+.StopWatchButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 0.5rem;
+    
+
+}
+.StopWatchButton > .button-style{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    cursor: pointer;
+   
+}
+.start{
+    background-color: #35A79E;
+    border: none;
+    font-size: 15px;
+    color: white;
+    
+}
+.split{
+    
+    color: gray;
+    font-size: 15px;
+    border:2px solid #BCBDBD ;
+    
+}
+.StopWatchButton .splitCursor{
+    cursor: not-allowed;
+}
+.splitColour{
+    background-color: #F29E26;
+    color: white;
+    border: none;
+}
+.pause{
+    background-color: #F6647F;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.Reset{
+    color: gray;
+    border:2px solid #BCBDBD ;
+    font-size: 15px;
+}
+.resetColour{
+   background-color: #4487D0;
+   color: white;
+   border: none;
+}
